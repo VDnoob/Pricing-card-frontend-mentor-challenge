@@ -1,0 +1,134 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body {
+    padding-left: 30%;
+    padding-top: 8%;
+    background-color: #98a6bd;
+}
+
+*,*:before,*:after {
+    box-sizing: inherit;
+}
+
+h2 , h4 , p {
+    margin : 0;
+}
+
+.main-container {
+    width: 600px;
+    height : 400px;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.upper-container {
+    width : 100%;
+    height : 45%;
+    padding : 25px;
+}
+
+.lower-container {
+    width : 100%;
+    height : 55%; 
+    color : white;
+}
+
+.lower-left-container {
+    width : 50%;
+    height : 100%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #2ab2af;
+    padding: 25px;
+}
+
+.lower-right-container {
+    width : 50%;
+    height : 100%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #3cd1cc;
+    padding : 25px;
+}
+
+.upper-container h2 {
+    color: #2ab2af;
+}
+
+.upper-container h4 {
+    margin-top: 15px;
+    color: #c0df34
+}
+
+.upper-container p {
+    margin-top: 10px;
+    color: #98a6bd;
+}
+
+button {
+   color : white;
+   background-color: #c0df34;
+   border: none;
+   width: 80%;
+   height: 35px;
+   margin-left: 10%;
+   margin-top: 10%;
+   box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.35);
+   border-radius: 5px;
+   padding: 10px;
+   text-align: center;
+}
+
+#price {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.lower-left-container h4 {
+    margin-bottom: 25px;
+}
+
+#price-container {
+    margin-bottom: 10px;
+}
+
+#price, #price-frequency {
+    display: inline-block;
+}
+
+#price-frequency {
+    margin-left: 8px;
+    font-size: 0.8rem;
+    position: relative;
+    top: -3px;
+    opacity: 0.75;
+}
+
+.lower-left-container p {
+    font-size: 0.8rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #c6d389;
+    color: black;
+    transform: scale(1.01);
+}
+
+.lower-right-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lower-container li {
+    padding: 1px;
+    font-size: 0.8rem;
+    opacity: 0.75;
+}
